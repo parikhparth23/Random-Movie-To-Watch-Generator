@@ -9,6 +9,13 @@ Just press "which movie i should watch?" button and wait for the software to aut
 How to run:
 "sudo python main.py"
 
+UI:
+
+![Click which movie i should watch button](https://imgur.com/ZrJ5Mqs)
+
+![Automagically movie name to watch](https://imgur.com/eIzBd7h)
+
+
 Technologies used:
 
 Python
