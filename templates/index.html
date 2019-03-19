@@ -1,0 +1,18 @@
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+{% extends "layout.html" %}
+{% block body %}
+<div class="block1">
+    <h1>Hello Visitor</h1>
+    <h2>Please press the "Which movie I should watch?" button.</h2>
+    <h3>Our Machine Learning algorithm will find the right movie for you!</h3>
+    <button class="myButton" id="clickButton">Which movie I should watch?</button>
+    <p id="watch">You should watch: <b>" {{ movie_name }} "</b> today!</p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+	 $("#clickButton").click(function(){
+	    $("#watch").toggle();
+     });
+	</script>
+</div>
+{% endblock %}
