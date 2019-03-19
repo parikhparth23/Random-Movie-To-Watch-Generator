@@ -11,9 +11,9 @@ How to run:
 
 UI:
 
-![Click which movie i should watch button](https://imgur.com/ZrJ5Mqs)
+![Click which movie i should watch button](https://imgur.com/a/uiihZzn)
 
-![Automagically movie name to watch](https://imgur.com/eIzBd7h)
+![Automagically movie name to watch](https://imgur.com/a/Lz2vwrZ)
 
 
 Technologies used:
